@@ -132,6 +132,31 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.partnerlogo-text {
+    float: right;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div {
+   overflow: hidden;
+}
+nav {
+    float: right;
+}
+
+
+.partnerlogo-img {
+    float: right;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div {
+   overflow: hidden;
+}
+nav {
+    float: right;
+}
+
 a:active,
 a:focus {
     outline: none !important;
