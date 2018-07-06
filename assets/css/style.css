@@ -122,7 +122,7 @@
  ===============================================*/
 body {
     color: #323232;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Open Sans;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -860,8 +860,10 @@ pre {
     text-decoration: none;
     color: #333; 
     outline: 0;
-    font-size: 13px;
+	font-family: Open Sans;
+    font-size: 15px;
     font-weight: normal;
+	
 
     -webkit-tap-highlight-color: transparent;
 }
@@ -3012,7 +3014,7 @@ body {
     text-transform: uppercase;
     color: #333;
     /*font: normal 60px/1.5 'Abel', sans-serif;*/
-    font: normal 60px/1.5 "Source Sans Pro", sans-serif;
+    font: normal 60px/1.5 Open Sans;
     font-weight: 300;
 }
 
@@ -4190,7 +4192,7 @@ blog-masonry
     margin: 5px 0 0 0;
     text-transform: none;
     color: #757575;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Open Sans;
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
@@ -4908,7 +4910,7 @@ comments-list
 
 .contact-comments label {
     text-transform: uppercase;
-    color: #7e7e7e; 
+    color: #070707; 
     font-weight: normal;
 }
 
