@@ -5699,6 +5699,20 @@ address p {
     line-height: 40px;
 }
 
+.lift-off2 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all .3s;
+            transition: all .3s; 
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    line-height: 40px;
+}
+
 .lift-off_show {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
