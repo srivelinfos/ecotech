@@ -702,7 +702,7 @@ pre {
 }
 
 .top-link.text-uppercase {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .top-bar .col-lg-1,
@@ -786,7 +786,7 @@ pre {
     width: 100%;
     padding: 0; 
     letter-spacing: .5px;
-    text-transform: uppercase;
+   /*  text-transform: uppercase; */
     background: none;
 }
 
@@ -836,7 +836,7 @@ pre {
     display: inline-block;
     width: 100%;
     padding: 8px 10px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .menuzord-menu a {
@@ -896,7 +896,7 @@ pre {
     clear: both;
     width: 100%;
     border: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .menuzord-menu ul.dropdown li a {
