@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/shortcodes.css">
     <link rel="stylesheet" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" href="assets/css/ecotech.css"> -->
     <link rel="stylesheet" href="assets/css/green-theme.css">
     <!-- endinject -->
 
@@ -55,8 +56,8 @@
 
                         <!--logo start-->
                         <a href="" class="logo-brand">
-                            <img class="retina" src="assets/img/ecotech/EcoTech_Logo.jpg" alt="EcoTech">
-							<img src="assets/img/ecotech/EcoTech_Lovato_NewVector.jpg" style="width:180px;height:60px;">
+                            <img src="assets/img/ecotech/EcoTech_Lovat0.jpg" alt="EcoTech">
+							<!-- <img src="assets/img/ecotech/EcoTech_Lovato_NewVector.jpg" style="width:180px;height:60px;"> -->
                         </a>
                         <!--logo end-->
 
@@ -197,15 +198,57 @@
             </div>
         </div>
         <!--hero section  End-->
+
+		
+		<!-- Current work in progress - works in webkit/chrome browsers only, I'll build in more support when I eventually get round to it ;) -->
+
+			<!-- remove/add 'animate' class to control when charts animate -->
+<!-- 			<figure class="chart-one animate">
+				<svg role="img" xmlns="http://www.w3.org/2000/svg">
+				<title>[title here]</title>
+				<desc>[long description here]</desc>
+				<circle class="circle-background"/>
+				<circle class="circle-foreground"/>
+		</svg>
+		<figcaption>25% of all males like donuts.</figcaption>
+		</figure>
+
+		<figure class="chart-two animate">
+		<svg role="img" xmlns="http://www.w3.org/2000/svg">
+		<title>[title here]</title>
+		<desc>[long description here]</desc>
+		<circle class="circle-background"/>
+		<circle class="circle-foreground"/>
+		</svg>
+		<figcaption>50% of all males like donuts.</figcaption>
+		</figure> -->
+
+		<!-- <figure class="chart-three animate">
+		<svg role="img" xmlns="http://www.w3.org/2000/svg">
+		<title>[title here]</title>
+		<desc>[long description here]</desc>
+		<circle class="circle-background"/>
+		<circle class="circle-foreground"/>
+		</svg>
+		<figcaption>75% of all males like donuts.</figcaption>
+		</figure> -->
+		
+
+	
 		<!--footer start 1-->
-        <footer id="footer" class="dark">
+        <footer id="footer" class="blue">
             <div class="primary-footer">
+			
                 <div class="container">
-                    <div class="row">
-                        <div>
-							<img src="assets/img/ecotech/benefits.png" alt="EcoTech" style="width:1200px;height:300px;">
-						</div>
-                    </div>
+				<div>
+					<a class="msg-txt-left">Reduce your Fuel Cost : Less by</a>
+					<a class="msg-txt-right">Reduce your carbon FootPrint</a>
+				</div>
+				<img src="assets/img/ecotech/60_percent.gif" alt="EcoTech" style="width:250px;height:200px;">
+				<img class="fuelsave-img" src="assets/img/ecotech/Calc_Your_Save.png" alt="EcoTech" style="width:500px;height:200px;"> 
+				<img class="msg-img" src="assets/img/ecotech/CO2_FootPrint.gif" alt="EcoTech" style="width:300px;height:200px;"> 
+                 <!--  -->
+                 </div>
                 </div>
 			</div>
         </footer>
@@ -235,9 +278,16 @@
                     <div class="row">
                         <div class="col-md-6">
 						<br/>
+
                             <h4 style="color:black;">Contact Us</h4>
-                            <img src="assets/img/ecotech/placeholder.png" style="width:30px;height:30px;">
-							<a style="color:black;">No.2, 1st Floor, 1st Cross, Dinnur Main Road, Akkamma Block, Behind R T Nagar Public School, R T Nagar, Bangalore, Karnataka 560032</a>
+                            <img src="assets/img/ecotech/sales_office.png" style="width:30px;height:30px;">
+							<b style="color:black;">Sales Office:</b>
+							<a style="color:black;">#2, 1st Floor, 1st Cross,  Akkamma Block, Dinnur Main Road, Behind R T Nagar Public School, R T Nagar, Bengaluru, Karnataka 560032. </a>
+							<br/>
+							<br/>
+							<img src="assets/img/ecotech/Fitment_Center.png" style="width:30px;height:30px;">
+							<b style="color:black;">Fitment Center:</b>
+							<a style="color:black;">KHB Colony Main Road, #5, 2nd Cross Road, Kanaka Nagar, Bengaluru, Karnataka 560032.</a>
 							<br/>
                             <address>
 							<br/>
@@ -254,12 +304,43 @@
 								 <a style="color:black;" href="mailto:reach@ecotechsolution.in">:  reach@ecotechsolution.in</a>
                             </address>
                         </div>
+						<div class="col-md-6">
+								<br/>
+								<h4 style="color:black;">Submit your Enquiry</h4>
+								<form action="">
+
+									<label for="fname">First Name</label>
+									<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    								<label for="lname">Last Name</label>
+    								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    								<label for="state">State</label>
+    								<select id="state" name="state">
+      								<option value="karnataka">Karnataka</option>
+      								<option value="kerala">Kerala</option>
+    								</select>
+
+    								<label for="subject">Subject</label>
+    								<textarea id="subject" name="subject" placeholder="Write your enquiry details here.." style="height:200px"></textarea>
+
+    								<input type="submit" value="Submit">
+
+								</form>
+						</div>
 					</div>
+					<!-- Map Address start-->
+					<div>
+                                <!-- Google Map start-->
+								<!-- <div id='grey-map' class="height-300"></div> -->
+								<br/>
+								<br/>
+								<div id="map" style="height: 400px; width: 100%;"></div>
+                                <!--  Google Map End-->
+                            </div>
+					<!-- Map Address End-->	
 		</div>
-		 <!-- Google Map start-->
-        <div id='grey-map' class="height-450">
-		</div>
-        <!--  Google Map End-->
+
 		<div class="lift-off2 js-lift-off lift-off_show">
 			<a href="#"> <img class="inline-block2" style="float: left; width:80px;height:80px;" src="assets/img/ecotech/calculator_1.jpeg"></a>
 			<img class="inline-block2" style="float: left; width:80px;height:80px;" src="assets/img/ecotech/click-gif.gif">
@@ -287,7 +368,70 @@
         <!--footer end-->
     </div>
 
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAxrPt5xzUYiuYz-ylldv1bPjjlVyhB7tw"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyAxrPt5xzUYiuYz-ylldv1bPjjlVyhB7tw"></script>
+<script>
+				function initMap() {
+					var map;
+					var bounds = new google.maps.LatLngBounds();
+					var mapOptions = {
+					mapTypeId: 'roadmap'
+					};
+                    
+					// Display a map on the web page
+					map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					map.setTilt(50);
+        
+					// Multiple markers location, latitude, and longitude
+					var markers = [
+					['EcoTech Solution - Fitment Center', 13.024797, 77.5927849],
+					['EcoTech Solution - Sales Office', 13.0340695, 77.6068608]
+					];
+                        
+					// Info window content
+					var infoWindowContent = [
+					['<div class="info_content">' +
+					'<h3>EcoTech Solution - Sales Office</h3>' +
+					'<p>#2, 1st cross, Akkamma block, Dinnur Main Rd, R T Nagar, Bengaluru,, Karnataka 56, Kauser Nagar, Dinnur, RT Nagar, Bangalore, Karnataka 560032. +91 94483 97692 </p>' + '<a href="https://www.google.com/maps/place/Eco+Tech+Solution/@13.0246426,77.5920247,16.46z/data=!4m5!3m4!1s0x0:0x866c7426ce0b5221!8m2!3d13.024797!4d77.5949736?hl=en" target="_blank" style=""><b>View Directions</b></a>'+ '</div>'],
+					['<div class="info_content">' +
+					'<h3>EcoTech Solution - Fitment Center</h3>' +
+					'<p>KHB Colony Main Road, #5, 2nd Cross Rd, Kanaka Nagar, Hebbal, Bengaluru, Karnataka 560032. +91 94483 97692</p>' + '<a class="m-top-10" href="https://www.google.com/maps/place/Eco+Tech+Solution+-+RTO+approved+CNG+%26+LPG+Retrofitment+centre/@13.0340695,77.6068608,17z/data=!4m12!1m6!3m5!1s0x0:0xd24315d9b93ff138!2sEco+Tech+Solution+-+RTO+approved+CNG+%26+LPG+Retrofitment+centre!8m2!3d13.03408!4d77.6090388!3m4!1s0x0:0xd24315d9b93ff138!8m2!3d13.03408!4d77.6090388?hl=en" target="_blank"><b>View Directions</b></a>' + '</div>']
+					];
+        
+					// Add multiple markers to map
+					 var infoWindow = new google.maps.InfoWindow(), marker, i;
+    
+					// Place each marker on the map  
+					for( i = 0; i < markers.length; i++ ) {
+					var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+					bounds.extend(position);
+					marker = new google.maps.Marker({
+					position: position,
+					map: map,
+					title: markers[i][0]
+					});
+        
+					// Add info window to marker    
+					google.maps.event.addListener(marker, 'click', (function(marker, i) {
+					return function() {
+					infoWindow.setContent(infoWindowContent[i][0]);
+					infoWindow.open(map, marker);
+					}
+					})(marker, i));
+
+					// Center the map to fit all markers on the screen
+					map.fitBounds(bounds);
+					}
+					// Set zoom level
+					var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
+					this.setZoom(14);
+					google.maps.event.removeListener(boundsListener);
+					});
+    
+					}
+					// Load initialize function
+					google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+	<!-- <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> -->
      <!-- inject:js -->
     <script src="assets/vendor/modernizr/modernizr.js"></script>
     <script src="assets/vendor/jquery/jquery-1.10.2.min.js"></script>
@@ -317,25 +461,6 @@
     <script src="assets/vendor/wow/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
     <!-- endinject -->
-	
-	    <script>
-        $(document).ready(function(){
-            $("#grey-map").gMap({
-                markers: [
-                    {
-					//lat:13.034125, lng: 77.609043
-                        latitude: 13.034125,
-                        longitude: 77.609043,
-                        html: '<div class="test_marker">Eco Tech Solution, KHB Colony Main Road,#5, 2nd Cross Rd, R. T. Nagar, Kanaka Nagar, Hebbal, Bengaluru, Karnataka 560032, India. Mobile: +91 94480 05444</div>'
-
-                    }
-                ],
-                zoom: 14,
-                scrollwheel:false,
-                styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":100},{"lightness":0},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":100},{"lightness":0},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":100},{"lightness":0},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-5},{"saturation":100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":25},{"saturation":100}]}]
-            })
-        });
-    </script>
 </body>
 
 </html>
